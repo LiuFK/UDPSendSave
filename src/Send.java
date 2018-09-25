@@ -13,6 +13,7 @@ public class Send {
 
 	public static void main(String[] args) throws Exception {
 		String path="/Volumes/Elements/AISdata/nanjin/part-00000";
+		//只是测试一下
 		FileInputStream fis=new FileInputStream(path);
 		InputStreamReader isr=new InputStreamReader(fis,"UTF-8");
 		BufferedReader br=new BufferedReader(isr);
